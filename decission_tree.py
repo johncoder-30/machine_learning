@@ -14,7 +14,7 @@ clf.fit(x_train, y_train)
 acc = clf.score(x_test, y_test)
 predict = clf.predict(x_test)
 print(acc)
-
+# visualising the output
 col = np.array(['b', 'g', 'r'])
 plt.subplot(1, 2, 1)
 plt.scatter(x_test[:, 0], x_test[:, 1], c=col[y_test])
