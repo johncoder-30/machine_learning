@@ -1,8 +1,8 @@
+import numpy as np
 from sklearn import datasets
 from sklearn import tree
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
-import numpy as np
 
 # x, y = datasets.make_classification()
 iris = datasets.load_iris()
